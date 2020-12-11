@@ -4,6 +4,9 @@
   become: true
 
   tasks:
-  - name: install tmux
+  - name: install packages
     package:
-      name: tmux
+      name:
+        - tmux
+        - htop
+        - neovim
