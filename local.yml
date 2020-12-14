@@ -10,6 +10,7 @@
         - tmux
         - htop
         - neovim
+        - python3-psutil 
 
   - name: copy wallpaper file
     copy:
